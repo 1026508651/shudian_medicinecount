@@ -47,3 +47,5 @@ set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name VHDL_FILE med_count.vhd
 set_global_assignment -name VHDL_FILE bottle_count.vhd
+set_global_assignment -name VHDL_FILE med_total.vhd
+set_global_assignment -name VHDL_FILE count_10.vhd

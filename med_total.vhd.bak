@@ -1,0 +1,16 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use ieee.std_logic_arith.all;
+
+entity med_total is
+	port(CLK_1:in std_logic;
+	CLR:in std_logic;
+	beginButton1:in std_logic;
+	count_EN:in std_logic;
+	total:out std_logic_vector(11 downto 0));
+end entity;
+
+architecture art of med_total is
+	
+
